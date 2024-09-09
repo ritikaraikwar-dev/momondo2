@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+/* nav section start */
+.bg-deepblue{
+    background: #141F3B;
+}
+nav select{
+    background: none;
+    border: none;
+    color: white;
+}
+/* nav section start */
+
+/* banner section start */
+.banner{
+    background: url(../images/background\ heart.jpg);
+    background-size: cover;
+    
+    
+    
+}
+.bg-pink{
+    background: #5D327A;
+    margin-top: 300px;
+}
+.bg-pink2{
+    background: #df3272;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    
+    background-color:#df3272 ;
+}
+.icon{
+    margin-left: -20px;
+    margin-right: -130px;
+}
+.tab-content{
+    margin-top: -40px;
+    margin-bottom: 15px;
+}
+ 
+/* banner section end */
+
+/* fun section start */
+.fun{
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(../images/fun.jpg);
+    background-position: center;
+}
+ 
+ 
+/* fun section end */
+
+/* subscribe section start */
+.subscribe{
+    background: url(../images/news3.jpg);
+    background-size: cover;
+    height: auto;
+}
+.subscribe input{
+    height: 50px;
+    font-size: 17px;
+    border: 4px outset #fafaff;
+   width: 65%;
+   padding:0px 25px;
+   transition:all 0.5s;
+   background: transparent;
+   color: white;
+
+}
+.subscribe input:focus{
+    border: 4px solid rgb(157, 157, 219);
+    outline: none;
+    }
+.subscribe button{
+    font-size: 17px;
+    background-color: white;
+     color: black;
+    font-weight: 500;
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    }
+/* subscribe section end */
+
+/* destination section start */
+.dest{
+    background: #1F1631;
+}
+.dest p span{
+    color: #eded0d;
+}
+/* destination section start */
+
+/* estimate section start */
+.estimate{
+    background: #664CAD;
+     
+}
+#estimate-img{
+   float: right;
+}
+/* estimate section end */
+footer{
+      
+       
+    background: linear-gradient(rgb(31, 27, 42,0.9),rgb(31, 27, 42,0.9)),url(../images/footer.jpg); 
+    background-position: center;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: gray;
+
+}
+ul li{
+
+    list-style: none;
+}
+ 
+footer ul li span{
+    color: #fff;
+}
