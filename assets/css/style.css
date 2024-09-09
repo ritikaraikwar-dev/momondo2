@@ -2,7 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+     
 }
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      
+      
+}
+
+ 
+ 
+ 
 p{
     padding: 0;
     margin: 0;
@@ -109,9 +118,11 @@ nav select{
    float: right;
 }
 /* estimate section end */
+
+/* footer section start */
 footer{
-      
-       
+    
+    
     background: linear-gradient(rgb(31, 27, 42,0.9),rgb(31, 27, 42,0.9)),url(../images/footer.jpg); 
     background-position: center;
     background-size: cover;
@@ -119,13 +130,20 @@ footer{
 a{
     text-decoration: none;
     color: gray;
-
+    
 }
 ul li{
-
+    
     list-style: none;
 }
- 
+
 footer ul li span{
     color: #fff;
 }
+
+footer {
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+}
+
+ 
+/* footer section start */
